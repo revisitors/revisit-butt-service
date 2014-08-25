@@ -1,4 +1,3 @@
-var nconf = require('nconf')
 var bodyParser = require('body-parser')
 var dataUriToBuffer = require('data-uri-to-buffer')
 var bg = require('butts-gm')
