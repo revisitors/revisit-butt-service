@@ -1,0 +1,17 @@
+{
+  "name": "revisit-butt-service",
+  "version": "1.0.0",
+  "description": "(This is a fork of [kidicarus 's](https://github.com/kid-icarus) smiley service)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meandave",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "butts-gm": "^1.0.1",
+    "data-uri-to-buffer": "0.0.3",
+    "express": "^4.8.5"
+  }
+}
