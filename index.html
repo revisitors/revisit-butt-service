@@ -3,22 +3,28 @@
 <head>
   <title>GLITCHY ☯ GlITCHY</title>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="/css/win98.css" type="text/css">
   <link rel="stylesheet" href="/css/main.css" type="text/css">
 </head>
-<body>
+<body class="win98">
 
-  <section class="hova">
-    <header>
-      <h4>Upload an image</h4>
+  <section class="window">
+    <header class="header">
+      <img class="icon" src="img/exe.gif"/>
+      Upload an Image
     </header>
-    <div class="form-container">
-      <form action="/service" method="post" accept-charset="utf-8">
-        <input class="msbtn" type="file" name="file" id="file" value="" />
-        <p><button class="msbtn submit" type="submit">Continue →</button></p>
+    <div class="content">
+      <form class="tha-form" action="/service" method="post" accept-charset="utf-8">
+        <center>
+          <input type="file" name="file" id="file" value="" />
+          <br/><br/>
+          <button class="submit" type="submit">Continue</button>
+        </center>
       </form>
     </div>
   </section>
 
+  <script src="/js/draggable.js"></script>
   <script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,96 @@
+.win98 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: normal;
+  font-family: Tahoma, Verdana;
+  color: #070707;
+}
+
+.win98 button, .win98 ::-webkit-file-upload-button {
+  text-align: center;
+  outline: none;
+  padding: 4px;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+}
+
+.win98 button:enabled {
+  color: #070707;
+}
+
+.win98 button:disabled {
+  color: #818181;
+  text-shadow: 1px 1px #fff;
+}
+
+.win98 button:active:enabled {
+  box-shadow: 0 0 0 0 #000 inset;
+  border-top-color: #000;
+  border-left-color: #000;
+  border-right-color: #000;
+  border-bottom-color: #000;
+
+  /* TODO: restyle this to be accurate */
+}
+
+.win98 .window {
+  width: 400px;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+}
+
+.win98 .resizable.window {
+  overflow: auto;
+  resize: both;
+
+  /* TODO: style resize controls */
+}
+
+.win98 .window > .content {
+  padding: 7px 10px;
+}
+
+.win98 .window > .header {
+  margin: 2px 2px 0;
+  padding: 1px 2px;
+  color: #fff;
+  background: linear-gradient(to right, #000080, #1084d0);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.win98 .window > .header > .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 2px;
+}
+
+.win98 .window > .header > .buttons {
+  height: 14px;
+  float: right;
+}
+
+.win98 .window > .header > .buttons > button {
+  vertical-align: text-top;
+  font-weight: bold;
+  line-height: 12px;
+  padding: 0;
+  height: 14px;
+  width: 14px;
+
+  /* TODO: fix centering */
+}

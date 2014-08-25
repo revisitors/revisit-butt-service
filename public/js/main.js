@@ -1,4 +1,5 @@
 ;(function(){
+  var winda = document.querySelector('.window')
   var file = document.querySelector('input[type=file]')
   var submitBtn = document.querySelector('.submit')
   var img = document.createElement('img')
@@ -27,7 +28,7 @@
   var fileHandler = function(e) {
     var reader = new FileReader()
     reader.onloadend = function() {
-      document.querySelector('header').appendChild(img)
+      document.querySelector('.content').appendChild(img)
       img.src = reader.result
       payload.content.type = e.target.files[0].type
       payload.content.data = reader.result
@@ -42,4 +43,6 @@
 
   submitBtn.addEventListener('click', submitHandler)
   file.addEventListener('change', fileHandler)
+
+  draggable(winda)
 })()
