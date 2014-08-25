@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.6.5",
-    "butts-gm": "^1.0.1",
+    "butts-gm": "^1.0.2",
     "data-uri-to-buffer": "0.0.3",
     "express": "^4.8.5"
   }
