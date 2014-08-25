@@ -28,3 +28,7 @@ img {
     z-index: 2;
     box-shadow: 11px 2px 15px 8px #FE0C0C;
 }
+.window {
+    top: 35vh;
+    left: 35vw;
+}
