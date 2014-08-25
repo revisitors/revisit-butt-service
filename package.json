@@ -1,6 +1,6 @@
 {
   "name": "revisit-butt-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "(This is a fork of [kidicarus 's](https://github.com/kid-icarus) smiley service)",
   "main": "index.js",
   "scripts": {
